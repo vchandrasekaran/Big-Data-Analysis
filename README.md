@@ -1,37 +1,1 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/vchandrasekaran/vn/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vchandrasekaran/vn/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+﻿#Big Data Analysis to find the optimal performance characteristics. ##Skills: Big Data, Hadoop, MapReduce, Java, TableauIn this project we will analyse the optimal performance characteristics relating to compression, intermediate compression, combiners, block size and the number of reducers. The aim of the project is to test these characteristics and find the optimal solution to improve the performance of the MapReduce tasks. The dataset used for this project is the weather dataset from ncdc. The MapReduce tasks were run on the different datasets which were with the above characteristics and the performance times were analysed.###Test 1First we analyse the number of reducers and the role of the reducers with regards to the performance. For this test we do not use a combiner or intermediate compression. The first test has one reducer and we perform the same test with 2,4 and 8 reducers one after the other. The graph given below shows the performance of the subsequent MapReduce tasks. ![test1](https://github.com/vchandrasekaran/big-data-analysis/blob/master/Images/test1.png)
